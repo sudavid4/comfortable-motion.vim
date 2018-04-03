@@ -68,6 +68,7 @@ function! s:tick(timer_id)
     else
       " Do nothing
     endif
+    normal! M0
     redraw
   else
     " Stop scrolling and the thread
